@@ -1,0 +1,158 @@
+.planos_funerarios-titulo {
+    width: 10%;
+
+    padding: 1em 2em;
+    margin: 3em auto;
+
+    font-weight: 700;
+
+    text-align: center;
+
+    color: var(--fonte-branca);
+    background-color: var(--fundo-cinza);
+    border-radius: 1em;
+}
+
+.planos_funerarios-titulo--Pets {
+    width: 15%;
+
+    padding: 1em 2em;
+    margin: 3em auto;
+
+    font-weight: 700;
+
+    text-align: center;
+
+    color: var(--fonte-branca);
+    background-color: var(--fundo-cinza);
+    border-radius: 1em;
+}
+
+.card-display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 20%;
+    height: auto;
+
+    padding: 1em 0;
+    margin: 0 1em;
+
+    background-color: var(--fundo-rosa);
+    border-radius: 2em;
+}
+
+.card--rebaixado {
+    position: relative;
+    top: 1.5em;
+}
+
+.card--elevado {
+    position: relative;
+    top: -1.5em;
+}
+
+.card-header {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.card-img {
+    height: 2.5em;
+    width: 2.5em;
+
+    padding: 1em;
+
+    background-color: var(--fundo-branco);
+    border-radius: 100%;
+}
+
+.card-titulo {
+    text-align: center;
+
+    font-weight: 700;
+
+    padding: 0.25em 1em;
+
+    background-color: var(--fundo-branco);
+    border-radius: 0.2em;
+}
+
+.card-main {
+    text-align: center;
+
+    padding: 1em 0.5em;
+    margin: 1em 0.5em;
+
+    background-color: var(--fundo-branco);
+    border-radius: 1em;
+}
+
+.card-lista-item{
+    text-align: left;
+    padding: 0.2em 0;
+}
+
+.card-lista-item::before {
+    content: "• ";
+}
+
+.card-footer {
+    display: block;
+}
+
+.card-footer-texto {
+    text-align: center;
+
+    font-weight: 700;
+    font-size: 20px;
+
+    padding: 0.5em 0.5em;
+    margin: 0.25em 0.5em;
+
+    background-color: var(--fundo-branco);
+    border-radius: 1em;
+}
+
+.preco {
+    padding: 0.5em 1em;
+}
+
+.card-footer-link {
+    text-decoration: none;
+    color: var(--fonte-preta);
+}
+
+.planos_funerarios-negociar {
+    font-size: 1em;
+    font-weight: 400;
+
+    width: 15%;
+
+    text-align: center;
+
+    margin: 2.5em auto 0;
+    padding: 0.75em 1.5em;
+
+    color: var(--fonte-branca);
+    background-color: var(--fundo-roxo-claro);
+    border-radius: 0.75em;
+
+    text-decoration: none;
+}
+
+.negociar-planos {
+    text-decoration: none;
+    color: var(--fonte-branca);
+}

@@ -1,0 +1,38 @@
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 1em 2em;
+
+    background-color: var(--fundo-roxo-escuro)
+}
+
+.logo {
+    width: 300px;
+    height: 117px;
+
+    border: 2.5px solid var(--fonte-branca);
+    border-radius: 1em;
+}
+
+.nav-lista {
+    display: flex;
+    align-items: center;
+}
+
+.nav-lista-link {
+    font-size: 1.75em;
+    font-weight: 700;
+
+    margin: 0 0.5em;
+    padding: 0.2em 1em;
+
+    color: var(--fonte-branca);
+    background-color: var(--fundo-roxo-claro);
+    border: 1px solid var(--fonte-branca);
+    border-radius: 0.2em;
+}
